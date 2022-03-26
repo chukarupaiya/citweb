@@ -1,0 +1,718 @@
+body{
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+
+    
+}
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+.container{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+#h2-first{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#h2-first::after{
+
+    background-image: url('AMG-Logo.png');
+    background-size: 200px 200px;
+    
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    top: -70px;
+    justify-content: center;
+    content:' ';
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#pic2{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    object-fit: contain;
+    z-index: 3;
+    overflow: hidden;
+
+}
+
+
+
+
+
+#pic1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 1;
+
+}
+
+#pic3{
+
+    width: 35%;
+    height: 45%;
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    object-fit: contain;
+    z-index: 3;
+    overflow: hidden;
+
+
+}
+
+#pic4{
+
+    width: 5%;
+    height: 15%;
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    object-fit: contain;
+    z-index: 3;
+    overflow: hidden;
+
+
+}
+
+#pic5{
+
+    width: 5%;
+    height: 15%;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    object-fit: contain;
+    z-index: 3;
+    overflow: hidden;
+
+
+}
+
+
+#break::after{
+    content: '';
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to top, rgb(20,20,20),transparent );
+    position: absolute;
+    bottom:0;
+    left: 0;
+    z-index: 10;
+}
+
+#break-2::after{
+    content: '';
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.466),transparent );
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 10;
+}
+
+#logo{
+    position: absolute;
+    top:10px;
+    left:10px;
+    z-index: 100;
+    width: 80px;
+    height: 80px;
+}
+
+#logo-p{
+    position: absolute;
+    top:0;
+    left:97px;
+    z-index: 100;  
+    color: white;  
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 45px;
+    transform: translateY(-13px);
+}
+
+#logo:hover ,#logo-p:hover{
+
+    cursor: pointer;
+}
+
+section div h2{
+    font-family: 'Fjalla One', sans-serif;
+        font-size: 45px;
+        margin-bottom: 0;
+    
+    
+}
+
+#sec-div{
+    position: absolute;
+    width: 30%;
+   transform: translateX(-600px);
+    top:100px;
+    left:100px;
+    transition: 1.5s ease;
+    font-family: 'Teko', sans-serif;
+    z-index: 100;
+
+}
+
+section div p{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.summa{
+    height: 500px;
+}
+
+.div-1{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(41, 41, 41);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    
+}
+
+.div-1-1{
+
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(41, 41, 41);
+    padding: 35px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    
+}
+
+.rev{
+
+    transform: translateY(100px);
+    transition: 0.8s ease;
+    opacity: 0;
+}
+
+.rev.active{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+
+.inner-div{
+    position: relative;
+    width: auto;
+}
+
+.div-img{
+    width: 75%;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 25px;
+    
+}
+
+/* .div-span::before{
+    content:'';
+    width: 10px;
+    height: 100%;
+    color: rgb(12, 11, 11);
+   background-image: linear-gradient(to left,rgb(41, 41,41),transparent);
+    position:absolute;
+    right: 0;
+    
+} */
+
+.div-1 h2{
+
+    font-family: 'Fjalla One', sans-serif;
+        font-size: 50px;
+        margin-bottom: 0;
+        padding-left: 20px;
+        color: white;
+
+}
+
+
+.div-1 p{
+        margin: auto;
+        padding: 0px;
+        color:white;
+        font-family: 'Teko', sans-serif;
+        font-size: 23px;
+        font-weight: 200;
+}
+
+.div-1-1 p,.para-34{
+    margin: auto;
+    padding: 20px;
+    color:white;
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.div-1-1-2 p{
+    margin: auto;
+    padding: 20px;
+    color:white;
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+
+
+.show{
+    display: flex;   
+    
+}
+
+.show .show-inner{
+    width: 33%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 5px;
+    position: relative;
+    
+}
+
+.show-inner img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.show-inner span{
+    background-color: rgba(7, 7, 7, 0.589);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+    
+
+}
+
+.show-inner span p{
+    margin: auto;
+    text-align: center;
+    transform: translateY(350px);
+    color: white;
+    transition: 0.5s;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+}
+
+.show-inner span:hover{
+    opacity: 1;
+}
+
+.show-inner span:hover  p{
+    transform: translateY(150px);
+}
+
+.middle{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+}
+
+
+.show-s{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%; 
+    height: 100%; 
+    justify-content: center;
+      
+}
+
+.show-s-inner{
+    width: 32%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+.show-s-inner img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.show-s-inner p{
+    color: rgb(0, 0, 0);
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    width: 100%;
+}
+
+.show-2{
+    width: 100%;
+    height: 100%;
+    margin: 50px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+    position: relative;
+}
+
+.show-2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.show-2-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.show-2:hover .show-2-inner{
+    opacity: 1;
+
+}
+
+.show-2-inner h2{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    
+}
+
+.show-2-inner p{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding:20px 200px;
+    text-align: left;
+}
+
+
+@media (max-width:1000px){
+    .div-1{
+        display:block;
+    }
+
+    .div-1 div:nth-of-type(2){
+        width: 100% !important;
+    }
+
+    .show,.show-s{
+        display: block;
+    }
+
+    .show .show-inner {
+        width: 100%;
+        margin-bottom: 30px;       
+        
+    }
+
+    .show-2-inner h2{
+        font-size: 16px;
+        font-family: 'Teko', sans-serif;
+        font-weight: 100;
+        padding: 30px;
+    }
+
+    .show img{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .show-2-inner p{
+        opacity: 1;
+        font-size: 15px;
+        
+    }
+
+    .show-s .show-s-inner{
+        width: 100%;
+        padding: 10px;  
+        margin: 0px; 
+        box-sizing: border-box;   
+        
+    }
+
+    
+    .show-s-inner p{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .div-img{
+        width: 55%;
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 180px;
+        margin-top: 25px;
+        
+    }
+
+
+    
+
+}
+
+@media (max-width:900px) {
+
+    #pic2,#pic3,#amg{
+        display: none;
+    }
+
+    #h2-first::after{
+        opacity: 0;
+    }
+    
+    #sec-div{
+        transition: 0;
+        width: 50%;
+    }
+
+    .div-img{
+        width: 55%;
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 150px;
+        margin-top: 25px;
+        
+    }
+
+    .div-1-1 p{
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    
+}
+
+
+.foot-link{
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.link-in{
+    color: white; 
+    width: 25%;
+    height: 100%;
+   
+}
+
+hr{
+    width: 100%;
+    border: 1px solid rgba(119, 118, 118, 0.582);
+    margin: 30px 0px;
+}
+
+.link-in li ,#foot-line{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(167, 168, 170);
+    margin: 2px 0px;
+}
+
+.link-in ul{
+    padding-left: 0px; 
+    display: flex;
+    flex-direction: column;   
+
+}
+
+.link-in li:hover{
+    cursor: pointer;
+    color: rgb(25, 147, 228);
+}
+
+@media (max-width:900px){
+
+
+    .foot-link{
+        display: block;
+    }
+
+    .link-in{
+        width: 100%;
+        margin: 40px 10px;
+    }
+
+
+
+
+}
+
+.ic{
+    font-size: 30px;
+    margin: 20px;
+    cursor: pointer;
+    color: rgb(66, 65, 65);
+}
+
+#i1:hover{
+    color:rgb(17, 101, 236) ;
+}
+
+#i2:hover{
+    color:rgb(245, 12, 12) ;
+}
+
+#i3:hover{
+    color:rgb(17, 101, 236) ;
+}
+
+#i4:hover{
+    color:rgb(231, 12, 104) ;
+}
+
+
+#i5:hover{
+    color:rgb(17, 50, 236) ;
+}
+
+#last{
+
+    margin: auto;
+    color:rgb(167, 168, 170);
+    text-align: center;
+    margin: 30px;
+}
+
+#para-9{
+
+    margin: 20px;
+    color: white
+}
+
+#aaa{
+
+    color:rgb(167, 168, 170);
+     text-decoration: none;
+}
+#aaa:hover{
+    color: rgb(45, 133, 233);
+}
+
+.nav-bar{
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    top: 0;
+}
+
+.nav-bar #nav-list{
+
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.nav-bar #nav-list li{
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    color:  rgb(252, 248, 248);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.nav-bar #nav-list li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    background-color: white;
+    display: block;
+    transition: 0.5s;
+}
+
+.nav-bar #nav-list li:hover::after{
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width:950px) {
+
+    .nav-bar #nav-list li{
+        font-size: 17px;
+        margin: 15px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+
+    
+}
+
+
+@media (max-width:700px) {
+
+    .nav-bar #nav-list li{
+        font-size: 12px;
+        margin: 10px;
+        overflow: hidden;
+    }
+
+    .div-img{
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        margin-left: 25% ;
+        
+    }
+
+    .show-2-inner p{
+        opacity: 0;
+    }
+    
+    
+}
